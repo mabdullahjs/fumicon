@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import img from '../../../images/fumicon cover.jpg'
 
 function Slider() {
   return (
@@ -6,21 +7,21 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://smartslider3.com/wp-content/uploads/2019/05/sliderimages-780x410.png"
+          src={img}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://smartslider3.com/wp-content/uploads/2019/05/sliderimages-780x410.png"
+          src={img}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_6rHur2stoxGpJ5ee_Vn7B_0S37YlK4_X8bb__8Lm3dhHI58TDbzcOJosAyTzdWUAPN8&usqp=CAU"
+          src={img}
           alt="Third slide"
         />
       </Carousel.Item>
