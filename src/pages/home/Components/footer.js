@@ -115,7 +115,7 @@ export default function Footer() {
 
       <div className='text-center p-4 text-white' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
       © 2022 FUMICON SERVICES - All Rights Reserved - Powered by.
-        <a style={{color:'#bd9500'}} className='text-reset fw-bold' href='https://skysoftsol.co/'>
+        <a style={{color:'#bd9500'}} className='text-reset fw-bold' href='http://skysoftsol.co/'>
         <span style={{color:'#ef6900'}}>Skysoft Solution</span>
         </a>
       </div>
